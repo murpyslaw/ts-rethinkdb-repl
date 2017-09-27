@@ -1,0 +1,43 @@
+{
+  "name": "ts-rethinkdb-repl",
+  "version": "1.0.0",
+  "description": "simple typescript node REPL for rethinkdb",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "concurrently \"rethinkdb\" \"nodemon --watch\" ",
+    "start": "concurrently \"rethinkdb\" \"nodemon\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/murpyslaw/ts-rethinkdb-repl.git"
+  },
+  "keywords": [
+    "simple",
+    "repl",
+    "rethinkdb",
+    "typescript",
+    "ts-node"
+  ],
+  "author": "Radoslav Ivanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/murpyslaw/ts-rethinkdb-repl/issues"
+  },
+  "homepage": "https://github.com/murpyslaw/ts-rethinkdb-repl#readme",
+  "dependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/lodash": "^4.14.74",
+    "@types/rethinkdb": "^2.3.5",
+    "chalk": "^2.1.0",
+    "concurrently": "^3.5.0",
+    "lodash": "^4.17.4",
+    "repl": "^0.1.3",
+    "rethinkdb": "^2.3.3",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
