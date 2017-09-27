@@ -1,0 +1,2 @@
+☐ Allow npm start to connect to rethinkdb and execute a REPLREPL
+     ☐ How to extend the life of the dbConnection and make sure it doesn't time out?
